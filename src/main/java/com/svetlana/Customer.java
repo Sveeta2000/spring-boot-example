@@ -6,9 +6,6 @@ import java.util.Objects;
 
 @Entity
 public class Customer {
-    //INSERT INTO customer(id, name, email, age)
-    //VALUES (nextval('customer_id_sequence'), 'Andrey', 'andrey@mail.ru', 35);
-
     @Id
     @SequenceGenerator(
             name = "customer_id_sequence",
